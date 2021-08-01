@@ -157,9 +157,9 @@ class _MyAppState extends State<SecondRoute> {
                                   Text(
                                     snapshot.data!.newsDetail.title,
                                     style: TextStyle(
-                                      fontSize: 28.0,
+                                      fontSize: 22.0,
                                       fontWeight: FontWeight.w500,
-                                      height: 1.5,
+                                      height: 1.4,
                                       letterSpacing: -.2,
                                       wordSpacing: .5,
                                     ),
@@ -221,8 +221,8 @@ class _MyAppState extends State<SecondRoute> {
                                     data: snapshot.data!.newsDetail.highlights,
                                     style: {
                                       "li": Style(
-                                        fontSize: FontSize(18.0),
-                                        lineHeight: LineHeight(1.7),
+                                        fontSize: FontSize(16.0),
+                                        lineHeight: LineHeight(1.6),
                                         fontWeight: FontWeight.w600,
                                       ),
                                     },
